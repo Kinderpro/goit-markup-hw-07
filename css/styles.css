@@ -131,8 +131,8 @@ body {
 }
 .mobile-menu {
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: 1000;
   top: 0;
   left: 0;
@@ -906,6 +906,7 @@ body {
   }
   .skill-item {
     width: calc((100% - 48px) / 2);
+    margin: 0;
   }
   .skill-text {
     width: 356px;
@@ -919,6 +920,9 @@ body {
     color: #434455;
   }
   .skill-title {
+    text-align: start;
+  }
+  .social-media-text {
     text-align: start;
   }
 
@@ -1009,6 +1013,7 @@ body {
   }
   .address-item :not(:last-child) {
     margin-right: 40px;
+   
   }
   .menu {
     display: flex;
@@ -1017,6 +1022,9 @@ body {
   .contact-address {
     font-style: normal;
     display: block;
+  }
+  .address-item .addres-item-link:not(:last-child) {
+    margin-bottom: 0;
   }
   /* =================== Hero =================== */
   .hero {
@@ -1063,6 +1071,12 @@ body {
     gap: 24px;
   }
   .skill-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
     width: 264px;
   }
   .icon-container {
@@ -1079,6 +1093,9 @@ body {
   .svg-icon {
     align-items: center;
     justify-content: center;
+  }
+  .skill-item {
+    margin: 0;
   }
 
   /* =================== What are we doing =================== */
@@ -1157,6 +1174,7 @@ body {
     margin-right: 80px;
   }
   .social-media-text {
+    text-align: start;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
