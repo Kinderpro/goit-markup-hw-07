@@ -156,6 +156,7 @@ flex-direction: column;
 justify-content: space-between;
   position: relative;
   padding: 80px 35px 40px 40px;
+  height: 100%;
  
 }
 .mobile-close-btn {
@@ -1054,6 +1055,10 @@ justify-content: space-between;
   .address-item .addres-item-link:not(:last-child) {
     margin-bottom: 0;
   }
+  .contact-link {
+    font-size: 16px;
+    
+  }
   /* =================== Hero =================== */
   .hero {
     padding-top: 188px;
@@ -1125,10 +1130,16 @@ justify-content: space-between;
   .skill-item {
     margin: 0;
   }
+  .title-employee {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
 
   /* =================== What are we doing =================== */
   .about {
-    /* display: block; */
+    display: block;
     padding-bottom: 120px;
     padding-top: 120px;
   }
@@ -1144,6 +1155,9 @@ justify-content: space-between;
   }
 
   /* =================== Our Team =================== */
+  .my-team > .container {
+    max-width: 1158px;
+  }
   .name-container {
     padding: 32px 16px;
   }
@@ -1157,6 +1171,10 @@ justify-content: space-between;
     justify-content: center;
   }
   /* =================== Company =================== */
+
+  .company > .container {
+    max-width: 1158px;
+  }
   .company {
     padding-top: 120px;
     padding-bottom: 120px;
